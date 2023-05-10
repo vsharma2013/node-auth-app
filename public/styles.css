@@ -1,0 +1,49 @@
+:root {
+  --lg-cont-bg: #ac9e94;
+  --lg-txt: #46320c;
+}
+
+.login-form-container {
+  position: relative;
+  display: flex;
+  max-width: 400px;
+  margin: auto;
+  border: black;
+  border-style: inset;
+  top: 100px;
+  justify-content: center;
+  flex-direction: column;
+  background-color: var(--lg-cont-bg);
+}
+
+.lg-h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.line-item {
+  padding: 10px;
+}
+
+.line-item input {
+  height: 30px;
+  width: 360px;
+}
+
+.btn-login {
+  height: 35px;
+  width: 100px;
+  cursor: pointer;
+  background-color: var(--lg-txt);
+  color: var(--lg-cont-bg);
+  font-size: larger;
+}
+
+h1,
+label {
+  color: var(--lg-txt);
+}
+
+label {
+  font-size: larger;
+}
